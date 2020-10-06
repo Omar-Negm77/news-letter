@@ -40,7 +40,7 @@ const request = https.request(url, options, function(response){
   response.on("data", function(data){
     console.log(JSON.parse(data));
     if(response.statusCode === 200 ){
-      res.sendFile(__dirname + "/Success.html")
+      res.sendFile(__dirname + "/success.html")
     }else{
       res.sendFile(__dirname + "/failure.html")
     }
@@ -65,3 +65,5 @@ app.listen(process.env.PORT || 3000, function(){
 //64403369398a5803d5bec074a0375f86-us2
 //list id
 //1031c4f5d6
+
+//https://guarded-journey-96150.herokuapp.com/
