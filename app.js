@@ -61,9 +61,6 @@ app.listen(process.env.PORT || 3000, function(){
   console.log("server is runing on port 3000");
 })
 
-//api key
-//64403369398a5803d5bec074a0375f86-us2
-//list id
-//1031c4f5d6
+
 
 //https://guarded-journey-96150.herokuapp.com/
